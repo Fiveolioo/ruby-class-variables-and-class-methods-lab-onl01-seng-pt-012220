@@ -29,7 +29,7 @@ class Song
     puts "two genre? #{@@genres}"
     genre_list = {}
     @@genres.each do |genre|
-      if !@@genres.has_key?(genre)
+      if !@@genres.has_key(genre)
         genre_list[genre] = 1
       else
         genre_list[genre] += 1
