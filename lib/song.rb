@@ -38,6 +38,7 @@ class Song
   end
   
    def self.artist_count
+    puts "this is what i look like #{@@artists}"
     artist_list = {}
     @@artists.each do |artist|
       if !artist_list.has_key?(artist)
