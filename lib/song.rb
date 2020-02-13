@@ -26,7 +26,6 @@ class Song
   end
 
   def self.genre_count
-    puts "two genre? #{@@genres}"
     genre_list = {}
     @@genres.each do |genre|
       if !genre_list.has_key?(genre)
@@ -37,5 +36,16 @@ class Song
     end
     genre_list
   end
-
+  
+   def self.artist_count
+    artist_list = {}
+    @@artists.each do |artist|
+      if !artist_list.has_key?(artist)
+        artist_list[artist] = 1
+      else
+        artist_list[artist] += 1
+      end
+    end
+    artist_list
+   end
 end
