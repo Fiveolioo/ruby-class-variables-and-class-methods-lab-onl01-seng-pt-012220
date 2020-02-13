@@ -26,7 +26,7 @@ def self.artists
 end
 
 def self.genre_count
-  puts "one genre? #{@genre}"
-  puts "two genre? #{@@genre}"
+  # puts "one genre? #{@genre}"
+  # puts "two genre? #{@@genre}"
 
 end
