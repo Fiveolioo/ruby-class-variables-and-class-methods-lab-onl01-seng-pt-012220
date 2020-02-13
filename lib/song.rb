@@ -27,7 +27,7 @@ class Song
 
   def self.genre_count
     puts "one genre? #{@genre}"
-    puts "two genre? #{@@genre}"
+    puts "two genre? #{@@genres}"
   end
 
 end
