@@ -26,9 +26,7 @@ def self.artists
 end
 
 def self.genre_count
-  genres.each do |genre, count|
-      genres[genre] = count.sort
-    end
-    end
+  puts "one genre? #{@genre}"
+  puts "two genre? #{@@genre}"
 
 end
